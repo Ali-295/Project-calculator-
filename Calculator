@@ -3,6 +3,7 @@ console writeline("My roll no is 046");
 #include <iostream>
 
 int main() {
+Division
     double num1, num2, quotient;
 
     // Ask the user for two numbers
@@ -22,6 +23,21 @@ int main() {
 
     // Display the result
     std::cout << "The quotient is: " << quotient << std::endl;
+
+    double num1, num2, product;
+
+    // Ask the user for two numbers
+    std::cout << "Enter first number: ";
+    std::cin >> num1;
+    std::cout << "Enter second number: ";
+    std::cin >> num2;
+
+    // Calculate the product
+    product = num1 * num2;
+
+    // Display the result
+    std::cout << "The product is: " << product << std::endl;
+ Multiplication
 
     return 0;
 }
