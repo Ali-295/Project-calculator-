@@ -2,9 +2,39 @@ console.writeline("My name is Ali");
 console writeline("My roll no is 046");
 #include <iostream>
 
+Subtraction
+int main() {
+ Multiplication
+Division
+    double num1, num2, quotient;
+
+    // Ask the user for two numbers
+    std::cout << "Enter dividend (num1): ";
+    std::cin >> num1;
+    std::cout << "Enter divisor (num2): ";
+    std::cin >> num2;
+
+    // Check if divisor is zero
+    if (num2 == 0) {
+        std::cout << "Error: Division by zero is not allowed." << std::endl;
+        return 1; // Return with an error code
+    }
+
+    // Calculate the quotient
+    quotient = num1 / num2;
+
+    // Display the result
+    std::cout << "The quotient is: " << quotient << std::endl;
+
+    double num1, num2, product;
+
+    double num1, num2, difference;
+Subtraction
+
 int main() 
 {
     double num1, num2, sum;
+Addition
 
     // Ask the user for two numbers
     std::cout << "Enter first number: ";
@@ -12,11 +42,28 @@ int main()
     std::cout << "Enter second number: ";
     std::cin >> num2;
 
+Subtraction
+Multiplication
+    // Calculate the product
+    product = num1 * num2;
+
+    // Display the result
+    std::cout << "The product is: " << product << std::endl;
+ Multiplication
+
+    // Calculate the difference
+    difference = num1 - num2;
+
+    // Display the result
+    std::cout << "The difference is: " << difference << std::endl;
+ Subtraction
+
     // Calculate the sum
     sum = num1 + num2;
 
     // Display the result
     std::cout << "The sum is: " << sum << std::endl;
+Adition
 
     return 0;
 }
