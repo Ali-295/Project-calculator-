@@ -3,6 +3,27 @@ console writeline("My roll no is 046");
 #include <iostream>
 
 int main() {
+Division
+    double num1, num2, quotient;
+
+    // Ask the user for two numbers
+    std::cout << "Enter dividend (num1): ";
+    std::cin >> num1;
+    std::cout << "Enter divisor (num2): ";
+    std::cin >> num2;
+
+    // Check if divisor is zero
+    if (num2 == 0) {
+        std::cout << "Error: Division by zero is not allowed." << std::endl;
+        return 1; // Return with an error code
+    }
+
+    // Calculate the quotient
+    quotient = num1 / num2;
+
+    // Display the result
+    std::cout << "The quotient is: " << quotient << std::endl;
+
     double num1, num2, product;
 
     // Ask the user for two numbers
@@ -16,6 +37,7 @@ int main() {
 
     // Display the result
     std::cout << "The product is: " << product << std::endl;
+ Multiplication
 
     return 0;
 }
